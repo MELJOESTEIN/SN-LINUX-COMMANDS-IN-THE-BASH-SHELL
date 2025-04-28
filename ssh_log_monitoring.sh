@@ -7,7 +7,7 @@ LOG_FILE="/var/log/auth.log"
 HOSTS_DENY="/etc/hosts.deny"
 THRESHOLD=5
 REPORT_FILE="/var/log/ssh_blocked_ips.log"
-EMAIL="admin@votredomaine.com"
+EMAIL="thierrymemel@gmail.com"
 
 # Vérifier si le script est exécuté avec root
 if [ "$EUID" -ne 0 ]; then
